@@ -1,0 +1,41 @@
+body {
+    background-color: #212121;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table, td,th{
+    border: solid 2px rgb(47, 47, 47);
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
+    font-size: larger;
+    border-radius: 2px;
+    width: 400px;
+    text-align: center;
+}
+table{
+    height: 400px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#space {
+    height:70px;
+    color: aliceblue;
+    font-size: 50px;
+
+    /* pointer-events: none; */
+    /* user-select: none; */
+}
+
+td:hover {
+    background-color: rgb(176, 176, 176);
+    color: #000;
+    cursor: pointer;
+}
+
+#equals:hover{
+    background-color: rgb(108, 172, 225);
+}
