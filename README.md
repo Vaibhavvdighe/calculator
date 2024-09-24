@@ -1,1 +1,1 @@
-URL - https://vaibhav-dighe-calculator.netlify.app/
+URL - https://vaibhavdighe-calculator.netlify.app/
