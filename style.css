@@ -1,33 +1,46 @@
 body {
     background-color: #212121;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-table, td,th{
-    border: solid 2px rgb(47, 47, 47);
-    background-color: rgb(22, 22, 22);
     color: #ffffff;
-    font-size: larger;
-    border-radius: 2px;
-    width: 400px;
-    text-align: center;
-}
-table{
-    height: 400px;
+    transition: all 1s ease-in-out;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.main {
+table, td, th{
+    box-shadow: 2px 2px 5px rgb(102, 102, 102);
+    transition: 1s ease-in-out;
+    font-size: larger;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+}
+
+td{
+    transition: none;
+}
+
+table{
+    background-color: rgb(22, 22, 22);
+    height: 400px;
+    margin: 10%;
+}
+
+main {
+    max-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #space {
     height:70px;
-    color: aliceblue;
     font-size: 50px;
-
-    /* pointer-events: none; */
-    /* user-select: none; */
+    transition:none;
 }
 
 td:hover {
@@ -37,5 +50,34 @@ td:hover {
 }
 
 #equals:hover{
-    background-color: rgb(108, 172, 225);
+    background-color: rgb(255, 106, 0);
+}
+
+.theme{
+    margin-left: 20px;
+    height: 40px;
+    width: 55px;
+    border: none;
+    border-radius: 20px;
+    background-color: #212121;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(102, 102, 102);
+    transition-duration:10ms;
+}
+
+.theme:hover {
+    transform: scale(110%);
+}
+
+header {
+    height: 10vh;
+}
+
+footer {
+    height: 5vh;
+    margin-bottom: 0;
+    background-color: rgb(21, 21, 21);
+    padding-left: 20px;
+    color: rgb(125, 124, 124);
+    transition: all 1s ease-in-out;
 }
